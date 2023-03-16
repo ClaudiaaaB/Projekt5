@@ -6,10 +6,10 @@ function Footer() {
       <p>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
       <div className="link_container">
         <a className="link" href="https://instagram.com">
-          <div class="fa-brands fa-instagram socialmedia-icon"></div>
+          <i className="fa-brands fa-instagram"></i>
         </a>
         <a className="link" href="https://facebook.com">
-          <div className="fa-brands fa-facebook-square socialmedia-icon"></div>
+          <i className="fa-brands fa-facebook-square"></i>
         </a>
       </div>
     </footer>

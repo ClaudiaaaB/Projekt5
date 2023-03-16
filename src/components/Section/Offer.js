@@ -25,10 +25,13 @@ function Offer(Box) {
       isNew: false,
     },
   ];
-
-  offersList.map((offer) => {
-    return <Box isNew={offer.isNew} title={offer.title} />;
-  });
+  return (
+    <div>
+      {/* {offersList.map((offer, index) => {
+        return <Box key={index} isNew={offer.isNew} title={offer.title} />;
+      })} */}
+    </div>
+  );
 }
 
 export default Offer;
