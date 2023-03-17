@@ -1,35 +1,15 @@
-function Offer(Box) {
-  const offersList = [
-    {
-      title: "Usługa 1",
-      isNew: true,
-    },
-    {
-      title: "Usługa 2",
-      isNew: false,
-    },
-    {
-      title: "Usługa 3",
-      isNew: false,
-    },
-    {
-      title: "Usługa 4",
-      isNew: false,
-    },
-    {
-      title: "Usługa 5",
-      isNew: false,
-    },
-    {
-      title: "Usługa 6",
-      isNew: false,
-    },
-  ];
+import Box from "../Box/Box";
+import { offersList } from "../../data/offerList";
+
+function Offer() {
   return (
-    <div>
-      {/* {offersList.map((offer, index) => {
-        return <Box key={index} isNew={offer.isNew} title={offer.title} />;
-      })} */}
+    <div id="button" className="page-container">
+      <h3>Czym zajmuje się nasza firma?</h3>
+      <div className="grid-container">
+        {offersList.map((offer, index) => {
+          return <Box key={index} isNew={offer.isNew} title={offer.title} />;
+        })}
+      </div>
     </div>
   );
 }

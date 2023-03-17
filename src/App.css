@@ -214,7 +214,6 @@ a:hover {
 
 .page-container {
   width: 100%;
-  max-width: 1340px;
   margin: 0 auto;
 }
 .page-container h2 {
@@ -223,6 +222,20 @@ a:hover {
   line-height: 42px;
   background-color: #405d78;
   color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 198px 198px 198px;
+  grid-template-rows: 193px 193px 193px;
+  column-gap: 63px;
+  row-gap: 63px;
+  background-color: #405d78;
+  transition: width 0.5s, height 0.5s;
+  padding-right: 269px;
+  padding-left: 291px;
+  padding-top: 174px;
+  padding-bottom: 64px;
 }
 
 .grid-item:hover {
@@ -289,27 +302,43 @@ a:hover {
 
 .link {
   text-decoration: none;
+  font-size: 25px;
 }
 .link_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  width: 50px;
 }
 
 .container-media-queries {
   width: 960px;
   margin: 0 auto;
 }
-
-/* --------- Media Queries --------- */
-@media screen and (max-width: 960px) {
-  .container {
-    width: 768px;
-  }
+.instagram-brands {
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  background: #ffffff;
+  width: 31px;
+  height: 31px;
+}
+.facebook-brands {
+  background: #ffffff;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.socialmedia-icon {
+  font-size: 31px;
+  color: white;
+  margin: 9px;
+  align-items: center;
 }
 
-@media screen and (max-width: 960px) {
-  .container {
-    width: 768px;
-  }
+.link {
+  text-decoration: none;
 }
