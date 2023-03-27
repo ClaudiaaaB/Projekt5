@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
-import People from "./components/Section/People";
+import People from "./components/Person/People";
 import Offer from "./components/Section/Offer";
 
 function App() {
