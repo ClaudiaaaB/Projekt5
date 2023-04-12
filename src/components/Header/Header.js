@@ -2,7 +2,7 @@ function Header() {
   return (
     <header className="page-header">
       <div className="page-header-shadow">
-        <div className="page-header-conteiner container">
+        <div className="page-header-conteiner">
           <h1>
             Nasza firma oferuje najwyższej <br />
             jakości produkty.
