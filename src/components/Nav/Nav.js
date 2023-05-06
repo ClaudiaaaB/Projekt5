@@ -12,7 +12,7 @@ function Nav() {
             </a>
           </li>
           <li className="main-navigation-el">
-            <a className="main-nav-link" href="#oferta">
+            <a className="main-nav-link" href="#button">
               oferta
             </a>
           </li>

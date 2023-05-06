@@ -2,7 +2,7 @@ import Person from "./Person";
 
 function People() {
   return (
-    <section id="o nas" className="page-container2 ">
+    <section id="onas" className="page-container2 ">
       <div class="container">
         <h2>Nasi specjaliści</h2>
 

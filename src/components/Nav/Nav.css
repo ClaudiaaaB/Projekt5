@@ -6,4 +6,5 @@
   align-items: center;
   color: white;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
